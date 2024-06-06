@@ -1,0 +1,24 @@
+1.
+a) Deoarece x == y, putem inlocui y cu x in expresia z = x - y
+=> z = x - x = 0 => z == 0 adevarata
+
+b) Preconditia true este mereu adevarata
+Noua valoare a lui x dupa executarea comenzii x := 100 este x = 100, deci postconditia x == 100 este adevarata
+
+c) Dupa executarea comenzii x := x + 1 obtinem 0 + 1 <= x + 1 < 100 <=> 1 <= x + 1 <= 100
+=> x + 1 nu va fi mai mic de 0 si nu va depasi 100 => valida
+
+2.
+a) Daca y ia orice valoare negativa y < 0 atunci tripla nu mai este valida
+
+b) Pentru x = 0 tripla nu mai este valida
+
+3.
+a) 0 <= x <= 198
+
+b) 0 < x <= N
+
+4.
+a) x >= 0
+
+b) y <= 65 
